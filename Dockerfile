@@ -9,4 +9,4 @@ RUN wget --no-check-certificate https://raw.githubusercontent.com/vishnubob/wait
 RUN mv /run.sh /run2.sh
 
 ADD run.sh /run.sh
-RUN chmod a+x /run.sh
+RUN chmod a+x /run.sh /opt/wait-for-it.sh
