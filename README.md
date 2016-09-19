@@ -1,1 +1,1 @@
-# jboss4
+# jboss7 with wait-for-db and mysql
